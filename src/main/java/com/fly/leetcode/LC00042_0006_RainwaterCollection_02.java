@@ -7,13 +7,13 @@ package com.fly.leetcode;
  * Beats 71.24% of users with Java
  * Memory 45.79 MB Beats 75.50% of users with Java
  */
-public class LC00042_RainwaterCollection_02 {
+public class LC00042_0006_RainwaterCollection_02 {
     public static void main(String[] args) {
-        System.out.println(new LC00042_RainwaterCollection_02().trap(new int[]{0, 3, 0, 2, 3}));
-        System.out.println(new LC00042_RainwaterCollection_02().trap(new int[]{0, 3, 1, 2, 3}));
-        System.out.println(new LC00042_RainwaterCollection_02().trap(new int[]{0, 3, 1, 2, 3, 5, 2, 1, 3}));
-        System.out.println(new LC00042_RainwaterCollection_02().trap(new int[]{0, 3, 1, 2, 3, 5, 2, 1, 3, 2}));
-        System.out.println(new LC00042_RainwaterCollection_02().trap(new int[]{2, 0, 1, 5}));
+        System.out.println(new LC00042_0006_RainwaterCollection_02().trap(new int[]{0, 3, 0, 2, 3}));
+        System.out.println(new LC00042_0006_RainwaterCollection_02().trap(new int[]{0, 3, 1, 2, 3}));
+        System.out.println(new LC00042_0006_RainwaterCollection_02().trap(new int[]{0, 3, 1, 2, 3, 5, 2, 1, 3}));
+        System.out.println(new LC00042_0006_RainwaterCollection_02().trap(new int[]{0, 3, 1, 2, 3, 5, 2, 1, 3, 2}));
+        System.out.println(new LC00042_0006_RainwaterCollection_02().trap(new int[]{2, 0, 1, 5}));
     }
 
     /**
