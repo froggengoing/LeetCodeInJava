@@ -7,10 +7,10 @@ import java.util.HashMap;
  * @author fly
  * @create 2024-04-19-21:41
  **/
-public class LC00001_TwoNumSum_02 {
+public class LC00001_0001_TwoNumSum_02 {
 
     public static void main(String[] args) {
-        LC00001_TwoNumSum_02 solution = new LC00001_TwoNumSum_02();
+        LC00001_0001_TwoNumSum_02 solution = new LC00001_0001_TwoNumSum_02();
 //        int[] result = solution.twoSum(new int[]{2, 7, 11, 15,8}, 10);
 //        int[] result = solution.twoSum(new int[]{3, 2, 4}, 6);
         int[] result = solution.twoSum(new int[]{3, 3}, 6);
