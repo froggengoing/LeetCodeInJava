@@ -21,7 +21,7 @@ public class LC00055_JumpGame_03 {
     }
 
     /**
-     * 默认返回false，代码更简洁
+     * 默认返回true，代码更简洁
      */
     public boolean canJump(int[] nums) {
         int maxIndex = 0;

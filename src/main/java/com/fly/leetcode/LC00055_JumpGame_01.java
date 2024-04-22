@@ -13,10 +13,13 @@ package com.fly.leetcode;
 public class LC00055_JumpGame_01 {
 
     public static void main(String[] args) {
-        System.out.println(new LC00055_JumpGame_01().canJump(new int[]{2, 3, 1, 1, 4}));
-        System.out.println(new LC00055_JumpGame_01().canJump(new int[]{2, 3, 1, 1, 0, 4}));
-        System.out.println(new LC00055_JumpGame_01().canJump(new int[]{3, 2, 1, 0, 4}));
-        System.out.println(new LC00055_JumpGame_01().canJump(new int[]{3, 1, 1, 1, 4}));
+        //System.out.println(new LC00055_JumpGame_01().canJump(new int[]{2, 3, 1, 1, 4}));
+        //System.out.println(new LC00055_JumpGame_01().canJump(new int[]{2, 3, 1, 1, 0, 4}));
+        //System.out.println(new LC00055_JumpGame_01().canJump(new int[]{3, 2, 1, 0, 4}));
+        //System.out.println(new LC00055_JumpGame_01().canJump(new int[]{3, 1, 1, 1, 4}));
+        System.out.println(new LC00055_JumpGame_01().canJump(new int[]{1}));
+        System.out.println(new LC00055_JumpGame_01().canJump(new int[]{0}));
+
     }
 
     public boolean canJump(int[] nums) {
