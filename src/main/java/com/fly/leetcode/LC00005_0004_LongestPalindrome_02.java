@@ -6,12 +6,12 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-20-14:14
  **/
-public class LC00005_LongestPalindrome_02 {
+public class LC00005_0004_LongestPalindrome_02 {
     public static void main(String[] args) {
-        System.out.println(new LC00005_LongestPalindrome_02().longestPalindrome("abcbca"));
-        System.out.println(new LC00005_LongestPalindrome_02().longestPalindrome("abccbca"));
-        System.out.println(new LC00005_LongestPalindrome_02().longestPalindrome("babc"));
-        System.out.println(new LC00005_LongestPalindrome_02().longestPalindrome("a"));
+        System.out.println(new LC00005_0004_LongestPalindrome_02().longestPalindrome("abcbca"));
+        System.out.println(new LC00005_0004_LongestPalindrome_02().longestPalindrome("abccbca"));
+        System.out.println(new LC00005_0004_LongestPalindrome_02().longestPalindrome("babc"));
+        System.out.println(new LC00005_0004_LongestPalindrome_02().longestPalindrome("a"));
     }
 
     public String longestPalindrome(String s) {
