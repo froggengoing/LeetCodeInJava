@@ -19,6 +19,13 @@ public class LC00001_TwoNumSum_02 {
         }
     }
 
+    /**
+     * 相交于解法1，减少了一次遍历
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
@@ -26,7 +33,8 @@ public class LC00001_TwoNumSum_02 {
             int num = nums[i];
             int remain = target - num;
             Integer index = map.get(remain);
-            if (index != null && index != i) {
+            // 优化：去掉多余判断 && index != i
+            if (index != null ) {
                 return new int[]{i, index};
             }
             map.put(num, i);
