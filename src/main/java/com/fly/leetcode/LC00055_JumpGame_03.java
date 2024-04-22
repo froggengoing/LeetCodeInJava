@@ -11,13 +11,13 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-22-14:12
  **/
-public class LC00045_JumpGame_03 {
+public class LC00055_JumpGame_03 {
 
     public static void main(String[] args) {
-        System.out.println(new LC00045_JumpGame_03().canJump(new int[]{2, 3, 1, 1, 4}));
-        System.out.println(new LC00045_JumpGame_03().canJump(new int[]{2, 3, 1, 1, 0, 4}));
-        System.out.println(new LC00045_JumpGame_03().canJump(new int[]{3, 2, 1, 0, 4}));
-        System.out.println(new LC00045_JumpGame_03().canJump(new int[]{3, 1, 1, 1, 4}));
+        System.out.println(new LC00055_JumpGame_03().canJump(new int[]{2, 3, 1, 1, 4}));
+        System.out.println(new LC00055_JumpGame_03().canJump(new int[]{2, 3, 1, 1, 0, 4}));
+        System.out.println(new LC00055_JumpGame_03().canJump(new int[]{3, 2, 1, 0, 4}));
+        System.out.println(new LC00055_JumpGame_03().canJump(new int[]{3, 1, 1, 1, 4}));
     }
 
     /**
