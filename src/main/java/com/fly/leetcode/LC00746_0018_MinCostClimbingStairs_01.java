@@ -1,6 +1,7 @@
 package com.fly.leetcode;
 
 /**
+ * [746]使用最小花费爬楼梯	66.5%	Easy	0.0%
  * https://leetcode.com/problems/min-cost-climbing-stairs/
  *
  * 给你一个整数数组 cost ，其中 cost[i] 是从楼梯第 i 个台阶向上爬需要支付的费用。一旦你支付此费用，即可选择向上爬一个或者两个台阶。
@@ -12,7 +13,7 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-21-9:25
  **/
-public class LC00746_MinCostClimbingStairs_01 {
+public class LC00746_0018_MinCostClimbingStairs_01 {
 
     /**
      * dp[n] = min(dp[n-1]+s[n-1],dp[n-2]+s[n-2])

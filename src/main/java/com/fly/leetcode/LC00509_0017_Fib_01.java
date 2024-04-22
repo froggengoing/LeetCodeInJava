@@ -5,14 +5,14 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-21-15:23
  **/
-public class LC00509_Fib_01 {
+public class LC00509_0017_Fib_01 {
 
     public static void main(String[] args) {
-        System.out.println(new LC00509_Fib_01().fib(1));
-        System.out.println(new LC00509_Fib_01().fib(2));
-        System.out.println(new LC00509_Fib_01().fib(3));
-        System.out.println(new LC00509_Fib_01().fib(4));
-        System.out.println(new LC00509_Fib_01().fib(5));
+        System.out.println(new LC00509_0017_Fib_01().fib(1));
+        System.out.println(new LC00509_0017_Fib_01().fib(2));
+        System.out.println(new LC00509_0017_Fib_01().fib(3));
+        System.out.println(new LC00509_0017_Fib_01().fib(4));
+        System.out.println(new LC00509_0017_Fib_01().fib(5));
     }
 
     //F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
