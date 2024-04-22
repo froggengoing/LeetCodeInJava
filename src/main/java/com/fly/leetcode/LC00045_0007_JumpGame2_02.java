@@ -11,15 +11,15 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-22-18:05
  **/
-public class LC00045_JumpGame2_02 {
+public class LC00045_0007_JumpGame2_02 {
     public static void main(String[] args) {
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{2, 3, 1, 1, 4}));
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{2, 3, 1, 1, 0, 4}));
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{3, 2, 1, 0, 4}));
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{3, 1, 1, 1, 4}));
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{3, 1, 1, 1, 1, 1, 4}));
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{0, 0}));
-        System.out.println(new LC00045_JumpGame2_02().jump(new int[]{1, 0, 0}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{2, 3, 1, 1, 4}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{2, 3, 1, 1, 0, 4}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{3, 2, 1, 0, 4}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{3, 1, 1, 1, 4}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{3, 1, 1, 1, 1, 1, 4}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{0, 0}));
+        System.out.println(new LC00045_0007_JumpGame2_02().jump(new int[]{1, 0, 0}));
 
     }
 
