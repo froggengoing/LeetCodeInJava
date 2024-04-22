@@ -7,12 +7,12 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-21-13:55
  **/
-public class LC00198_ROB_01 {
+public class LC00198_0014_ROB_01 {
 
     public static void main(String[] args) {
-        System.out.println(new LC00198_ROB_01().rob(new int[]{1}));
-        System.out.println(new LC00198_ROB_01().rob(new int[]{1, 2, 3, 1}));
-        System.out.println(new LC00198_ROB_01().rob(new int[]{1, 4, 4, 3, 2, 1}));
+        System.out.println(new LC00198_0014_ROB_01().rob(new int[]{1}));
+        System.out.println(new LC00198_0014_ROB_01().rob(new int[]{1, 2, 3, 1}));
+        System.out.println(new LC00198_0014_ROB_01().rob(new int[]{1, 4, 4, 3, 2, 1}));
     }
     /**
      * dp[n] = max(dp[n-2]+s[n],dp[n-1])

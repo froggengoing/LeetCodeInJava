@@ -1,16 +1,17 @@
 package com.fly.leetcode;
 
 /**
+ * [122]买卖股票的最佳时机 II	73.5%	Medium	0.0%
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
  *
  * @author fly
  * @create 2024-04-21-10:18
  **/
-public class LC00122_BestTimetoBuyAndSellStock2_02 {
+public class LC00122_0013_BestTimetoBuyAndSellStock2_02 {
     public static void main(String[] args) {
-        System.out.println(new LC00122_BestTimetoBuyAndSellStock2_02().maxProfit(new int[]{7, 6, 4, 3, 1}));
-        System.out.println(new LC00122_BestTimetoBuyAndSellStock2_02().maxProfit(new int[]{7, 1, 5, 3, 6, 3, 4, 6, 7}));
-        System.out.println(new LC00122_BestTimetoBuyAndSellStock2_02().maxProfit(new int[]{1, 9, 6, 9, 1, 7, 1, 1, 5, 9, 9, 9}));
+        System.out.println(new LC00122_0013_BestTimetoBuyAndSellStock2_02().maxProfit(new int[]{7, 6, 4, 3, 1}));
+        System.out.println(new LC00122_0013_BestTimetoBuyAndSellStock2_02().maxProfit(new int[]{7, 1, 5, 3, 6, 3, 4, 6, 7}));
+        System.out.println(new LC00122_0013_BestTimetoBuyAndSellStock2_02().maxProfit(new int[]{1, 9, 6, 9, 1, 7, 1, 1, 5, 9, 9, 9}));
     }
 
     public int maxProfit(int[] prices) {

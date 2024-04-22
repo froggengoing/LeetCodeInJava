@@ -9,7 +9,7 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-21-0:43
  **/
-public class LC00070_ClimbStair_01 {
+public class LC00070_0011_ClimbStair_01 {
 
 
     /**

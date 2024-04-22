@@ -2,12 +2,13 @@ package com.fly.leetcode;
 
 /**
  * ✔	[62]不同路径	68.2%	Medium	0.0%
+ * https://leetcode.cn/problems/unique-paths/
  * 动态规划
  */
-class LC00062_UniquePaths_01 {
+class LC00062_0010_UniquePaths_01 {
     public static void main(String[] args) {
-        System.out.println(new LC00062_UniquePaths_01().uniquePaths(3, 7));
-        System.out.println(new LC00062_UniquePaths_01().uniquePaths(3, 2));
+        System.out.println(new LC00062_0010_UniquePaths_01().uniquePaths(3, 7));
+        System.out.println(new LC00062_0010_UniquePaths_01().uniquePaths(3, 2));
     }
     //dp[m,n]=dp[m,n-1]+dp[m-1,n]
     public int uniquePaths(int m, int n) {

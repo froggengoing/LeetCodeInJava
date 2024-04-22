@@ -6,11 +6,11 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-21-10:18
  **/
-public class LC00122_BestTimetoBuyAndSellStock2_01 {
+public class LC00122_0013_BestTimetoBuyAndSellStock2_01 {
     public static void main(String[] args) {
         //System.out.println(new LC00121_BestTimetoBuyAndSellStock_01().maxProfit(new int[]{7, 6, 4, 3, 1}));
         //System.out.println(new LC00121_BestTimetoBuyAndSellStock_01().maxProfit(new int[]{7,1,5,3,6,3,4,6,7}));
-        System.out.println(new LC00122_BestTimetoBuyAndSellStock2_01().maxProfit(new int[]{1, 9, 6, 9, 1, 7, 1, 1, 5, 9, 9, 9}));
+        System.out.println(new LC00122_0013_BestTimetoBuyAndSellStock2_01().maxProfit(new int[]{1, 9, 6, 9, 1, 7, 1, 1, 5, 9, 9, 9}));
     }
 
     public int maxProfit(int[] prices) {

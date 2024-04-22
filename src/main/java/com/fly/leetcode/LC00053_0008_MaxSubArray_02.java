@@ -11,13 +11,13 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-22-23:29
  **/
-public class LC00053_MaxSubArray_02 {
+public class LC00053_0008_MaxSubArray_02 {
 
     public static void main(String[] args) {
-        System.out.println(new LC00053_MaxSubArray_02().maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
-        System.out.println(new LC00053_MaxSubArray_02().maxSubArray(new int[]{1}));
-        System.out.println(new LC00053_MaxSubArray_02().maxSubArray(new int[]{-1}));
-        System.out.println(new LC00053_MaxSubArray_02().maxSubArray(new int[]{5, 4, -1, 7, 8}));
+        System.out.println(new LC00053_0008_MaxSubArray_02().maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
+        System.out.println(new LC00053_0008_MaxSubArray_02().maxSubArray(new int[]{1}));
+        System.out.println(new LC00053_0008_MaxSubArray_02().maxSubArray(new int[]{-1}));
+        System.out.println(new LC00053_0008_MaxSubArray_02().maxSubArray(new int[]{5, 4, -1, 7, 8}));
     }
 
     /**
