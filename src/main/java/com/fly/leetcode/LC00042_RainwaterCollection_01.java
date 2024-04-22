@@ -4,7 +4,8 @@ import java.util.Stack;
 
 /**
  *  [42]接雨水	63.5%	Hard	0.0%
- *  单调栈
+ *  https://leetcode.cn/problems/trapping-rain-water/description/
+ *  单调栈，运行时间7ms
  */
 public class LC00042_RainwaterCollection_01 {
     public static void main(String[] args) {
