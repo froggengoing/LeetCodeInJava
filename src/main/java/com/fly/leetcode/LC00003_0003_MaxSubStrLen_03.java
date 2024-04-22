@@ -1,12 +1,12 @@
 package com.fly.leetcode;
 
-class LC00003_MaxSubStrLen_03 {
+class LC00003_0003_MaxSubStrLen_03 {
     public static void main(String[] args) {
-        System.out.println(new LC00003_MaxSubStrLen_03().lengthOfLongestSubstring("abcdecaehcb"));
-        System.out.println(new LC00003_MaxSubStrLen_03().lengthOfLongestSubstring("bbbb"));
-        System.out.println(new LC00003_MaxSubStrLen_03().lengthOfLongestSubstring("b"));
-        System.out.println(new LC00003_MaxSubStrLen_03().lengthOfLongestSubstring("babcd"));
-        System.out.println(new LC00003_MaxSubStrLen_03().lengthOfLongestSubstring(" "));
+        System.out.println(new LC00003_0003_MaxSubStrLen_03().lengthOfLongestSubstring("abcdecaehcb"));
+        System.out.println(new LC00003_0003_MaxSubStrLen_03().lengthOfLongestSubstring("bbbb"));
+        System.out.println(new LC00003_0003_MaxSubStrLen_03().lengthOfLongestSubstring("b"));
+        System.out.println(new LC00003_0003_MaxSubStrLen_03().lengthOfLongestSubstring("babcd"));
+        System.out.println(new LC00003_0003_MaxSubStrLen_03().lengthOfLongestSubstring(" "));
     }
 
     /**

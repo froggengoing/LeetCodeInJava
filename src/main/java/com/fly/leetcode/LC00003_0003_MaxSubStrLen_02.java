@@ -3,12 +3,12 @@ package com.fly.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-class LC00003_MaxSubStrLen_02 {
+class LC00003_0003_MaxSubStrLen_02 {
     public static void main(String[] args) {
-        System.out.println( new LC00003_MaxSubStrLen_02().lengthOfLongestSubstring("abcdecaehcb"));
-        System.out.println( new LC00003_MaxSubStrLen_02().lengthOfLongestSubstring("bbbb"));
-        System.out.println( new LC00003_MaxSubStrLen_02().lengthOfLongestSubstring("b"));
-        System.out.println( new LC00003_MaxSubStrLen_02().lengthOfLongestSubstring("babcd"));
+        System.out.println( new LC00003_0003_MaxSubStrLen_02().lengthOfLongestSubstring("abcdecaehcb"));
+        System.out.println( new LC00003_0003_MaxSubStrLen_02().lengthOfLongestSubstring("bbbb"));
+        System.out.println( new LC00003_0003_MaxSubStrLen_02().lengthOfLongestSubstring("b"));
+        System.out.println( new LC00003_0003_MaxSubStrLen_02().lengthOfLongestSubstring("babcd"));
     }
     public int lengthOfLongestSubstring(String s) {
         int maxLen = 0;
