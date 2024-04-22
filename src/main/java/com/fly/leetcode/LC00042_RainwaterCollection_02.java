@@ -3,7 +3,9 @@ package com.fly.leetcode;
 /**
  * [42]接雨水	63.5%	Hard	0.0%
  * 动态规划，时间复杂度o(3n),运行时间1ms,比单调栈快，可能是栈操作花时间
- *
+ * Runtime 1 ms
+ * Beats 71.24% of users with Java
+ * Memory 45.79 MB Beats 75.50% of users with Java
  */
 public class LC00042_RainwaterCollection_02 {
     public static void main(String[] args) {
