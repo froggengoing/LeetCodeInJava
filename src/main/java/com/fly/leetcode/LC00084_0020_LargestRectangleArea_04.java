@@ -20,6 +20,7 @@ public class LC00084_0020_LargestRectangleArea_04 {
         System.out.println(new LC00084_0020_LargestRectangleArea_04().largestRectangleArea(new int[]{5}));
         System.out.println(new LC00084_0020_LargestRectangleArea_04().largestRectangleArea(new int[]{5, 0}));
         System.out.println(new LC00084_0020_LargestRectangleArea_04().largestRectangleArea(new int[]{0, 5, 0}));
+        System.out.println(new LC00084_0020_LargestRectangleArea_04().largestRectangleArea(new int[]{5, 5, 0}));
     }
 
     /**
