@@ -10,15 +10,15 @@ package com.fly.leetcode;
  * @author fly
  * @create 2024-04-23-21:18
  **/
-public class LC00494_FindTargetSumWays_01 {
+public class LC00494_0023_FindTargetSumWays_01 {
     public static void main(String[] args) {
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{1, 0, 1, 1, 1,1}, 3));
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{0, 1, 1, 1, 1, 1}, 3));
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{1, 5, 1, 1, 1}, 5));
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{1000}, -1000));
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{1000}, 1000));
-        System.out.println(new LC00494_FindTargetSumWays_01().findTargetSumWays(new int[]{0, 0, 0, 0, 0, 0, 0, 0, 1}, 1));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{1, 0, 1, 1, 1,1}, 3));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{0, 1, 1, 1, 1, 1}, 3));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{1, 5, 1, 1, 1}, 5));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{1000}, -1000));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{1000}, 1000));
+        System.out.println(new LC00494_0023_FindTargetSumWays_01().findTargetSumWays(new int[]{0, 0, 0, 0, 0, 0, 0, 0, 1}, 1));
     }
 
     /**
