@@ -3,6 +3,8 @@ package com.fly.leetcode;
 /**
  * [416]分割等和子集	52.4%	Medium	0.0%
  * https://leetcode.cn/problems/partition-equal-subset-sum/
+ * 背包问题
+ *
  * <p>
  * Runtime 43 ms Beats 51.36% of users
  * with Java Memory 47.08 MB Beats 44.04% of users with Java
@@ -12,14 +14,15 @@ package com.fly.leetcode;
  **/
 public class LC00416_0022_ArrayPartition_01 {
     public static void main(String[] args) {
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1, 5, 5, 11}));
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1, 1, 5, 5, 11}));
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1, 5}));
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1}));
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{5}));
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{5, 6, 7, 8}));
-
-        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{3, 3, 3, 4, 5}));
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1, 5, 5, 11}));
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1, 1, 5, 5, 11}));
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1, 5}));
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1}));
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{5}));
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{5, 6, 7, 8}));
+        //
+        //System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{3, 3, 3, 4, 5}));
+        System.out.println(new LC00416_0022_ArrayPartition_01().canPartition(new int[]{1,2,3,6}));
     }
 
     /**
