@@ -6,13 +6,13 @@ import java.util.Arrays;
  * @author fly
  * @create 2024-04-27-16:05
  **/
-public class T0003_ShellSort {
+public class T0004_ShellSort {
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(new T0003_ShellSort().sort(new int[]{1, 2, 3, 2, 1})));
-        System.out.println(Arrays.toString(new T0003_ShellSort().sort(new int[]{1, 0})));
-        System.out.println(Arrays.toString(new T0003_ShellSort().sort(new int[]{1, 2, 0, 3, 3, 2, 1})));
+        System.out.println(Arrays.toString(new T0004_ShellSort().sort(new int[]{1, 2, 3, 2, 1})));
+        System.out.println(Arrays.toString(new T0004_ShellSort().sort(new int[]{1, 0})));
+        System.out.println(Arrays.toString(new T0004_ShellSort().sort(new int[]{1, 2, 0, 3, 3, 2, 1})));
         //System.out.println(Arrays.toString(new T0003_ShellSort().shellSort(new int[]{1, 2, 0, 3, 3, 2, 1})));
 
     }
