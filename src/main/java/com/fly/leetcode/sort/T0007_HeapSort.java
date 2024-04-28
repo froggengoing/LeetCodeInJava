@@ -21,10 +21,12 @@ public class T0007_HeapSort {
         for (int i = nums.length / 2 - 1; i >= 0; i--) {
             heapify(nums, nums.length, i);
         }
+        // 将堆顶移动到末尾，同时重新调整堆排序
         for (int i = nums.length - 1; i >= 0; i--) {
             int tmp = nums[i];
             nums[i] = nums[0];
             nums[0] = tmp;
+            //注意这里是i，即排除后面的元素
             heapify(nums, i, 0);
         }
 
