@@ -3,6 +3,10 @@ package com.fly.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Runtime 5 ms Beats 87.20% of users
+ * with Java Memory 44.76 MB Beats 31.12% of users with Java
+ */
 class LC00003_0003_MaxSubStrLen_02 {
     public static void main(String[] args) {
         System.out.println( new LC00003_0003_MaxSubStrLen_02().lengthOfLongestSubstring("abcdecaehcb"));

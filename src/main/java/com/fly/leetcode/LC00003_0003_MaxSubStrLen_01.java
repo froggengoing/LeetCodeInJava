@@ -16,6 +16,9 @@ import java.util.Set;
  * 输入: s = "bbbbb"
  * 输出: 1
  * 解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+ *
+ * Runtime 6 ms Beats 68.98% of users
+ * with Java Memory 44.47 MB Beats 61.00% of users with Java
  */
 class LC00003_0003_MaxSubStrLen_01 {
     public int lengthOfLongestSubstring(String s) {
