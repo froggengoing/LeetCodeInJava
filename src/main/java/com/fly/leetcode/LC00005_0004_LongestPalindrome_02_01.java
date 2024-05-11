@@ -41,41 +41,26 @@ public class LC00005_0004_LongestPalindrome_02_01 {
     // 中心扩展
     public String longestPalindrome(String s) {
 
+        int maxLen = 0;
         int begin = 0;
-        int maxlen = 0;
-        for (int i = 0; i < s.length(); i++) {
-            // 奇数
-            int oddLen = isPalindrome(s, i - 1, i + 1);
-            // 偶数
-            int evenLen = isPalindrome(s, i - 1, i);
+        int end = 0;
+        boolean[][] dp = new boolean[s.length()][s.length()];
+        for (int i = s.length() - 1; i >= 0; i--) {
 
-            int oddPalinLen = 2 * oddLen + 1;
-            int evenPalinLen = 2 * evenLen;
-
-            if (oddPalinLen > evenPalinLen && oddPalinLen > maxlen) {
-                begin = i - oddLen;
-                maxlen = oddPalinLen;
+            for (int j = i ; j < s.length(); j++) {
+                if(i==j){
+                    dp[i][i] = true;
+                }else if(s.charAt(i)==s.charAt(j)){
+                    dp[i][j]= j-i<2?true:dp[i+1][j-1];
+                }
+                if(dp[i][j] && j-i>maxLen){
+                    begin = i;
+                    end = j;
+                }
             }
 
-            if (evenPalinLen > oddPalinLen && evenPalinLen > maxlen) {
-                begin = i - evenLen;
-                maxlen = evenPalinLen;
-            }
         }
-        // substring 左闭右开,都是index而不是长度
-        return s.substring(begin, begin + maxlen);
-    }
 
-    public int isPalindrome(String s, int l, int r) {
-        if (l < 0 || r > s.length()) {
-            return 0;
-        }
-        int len = 0;
-        while (l >= 0 && r < s.length() && l < r && s.charAt(l) == s.charAt(r)) {
-            r++;
-            l--;
-            len++;
-        }
-        return len;
+        return s.substring(begin, end +1);
     }
 }
